@@ -1,0 +1,2 @@
+Render to PDF:
+	•	In VS Code: Press Cmd/Ctrl + Shift + P → “Render Quarto Document”
