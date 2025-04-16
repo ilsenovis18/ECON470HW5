@@ -124,7 +124,7 @@ print(dd_pivot)
 print(f"\nEstimated ATE (Difference-in-Differences): {did_estimate:.4f}")
 
 ## Q6
-# Use only 2012 and 2015 and the relevant states
+# Use all years
 df_reg = df[df['year'].isin([2012, 2015])].copy()
 df_reg = df_reg[df_reg['State'].isin(keep_states)].copy()
 
